@@ -8,8 +8,6 @@ import { idDetail } from "../../../redux/slice";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
-
-
 export function Home({ navigation }) {
     const [movies, setMovies] = useState()
     const dispatch = useDispatch();
@@ -45,13 +43,14 @@ export function Home({ navigation }) {
                         </View>
                     </TouchableOpacity>
                 )} />
-
             }
+
             <TouchableOpacity>
                 <Text style={styles.logout} onPress={() => logOut()}>
                     Sair da conta
                 </Text>
             </TouchableOpacity>
+
             <StatusBar style='auto' />
         </SafeAreaView>
     );

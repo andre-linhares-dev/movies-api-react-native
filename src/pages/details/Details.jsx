@@ -58,9 +58,7 @@ export function Details({ navigation }) {
         </TouchableOpacity>
     
         </ImageBackground>
-        {/* <View style={styles.mid}> */}
 
-        {/* </View> */}
       </>
       )}
       <StatusBar style="auto" />

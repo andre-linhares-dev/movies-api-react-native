@@ -45,5 +45,4 @@ export const styles = StyleSheet.create({
         color: '#fff',
         paddingTop: 10
     }
-
   });

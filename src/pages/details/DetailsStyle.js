@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
     midTitle: {
         fontSize: 18,
         fontWeight: "bold",
-        color: "#fff",
+        color: "#fff"
        
     },
     midText: {
